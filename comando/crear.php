@@ -4,7 +4,7 @@
 require 'crud.php';
 
 
-// Definimos un input para cada valor de la columna en la tabla 'users'
+// Solicitamos los datos del usuario a crear
 echo "Ingresa el nombre del nuevo usuario: ";
     $name = trim(fgets(STDIN));
 
@@ -21,7 +21,7 @@ echo "Ingresa el area del nuevo usuario (Contabilidad, Marketing, Sistemas, Vent
     $area = trim(fgets(STDIN));
 
 
-// Informamos si el usuario se ha creado o ha habido un error en el proceso
+// Ejecutamos 'createUser' e informamos si el usuario se ha creado o ha habido un error
 try {
     $id = createUser($pdo, $name, $email, $company, $document, $area);
         echo "Se ha creado el usuario '$name' con id '$id' correctamente.\n";

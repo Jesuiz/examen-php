@@ -1,5 +1,6 @@
 <?php
 
+
 // Importamos la conexión a la DB
 require 'crud.php';
 
