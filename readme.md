@@ -3,7 +3,7 @@
 ## 1. CRUD en PHP y MySQL
 
 ### 🛢️ Crear una tabla en MySQL
-En el archivo 'table_create' definimos el código SQL que creará la tabla 'users' con las columnas requeridas (id, name, email, created_at), también me tomé la libertad de añadir algunas adicionales (company, document, area). Aquí también ejecutamos una consulta a la DB para verificar si la tabla ha sido creada correctamente.  
+En el archivo 'crud' se definió la función que creará la tabla 'users' con las columnas requeridas (id, name, email, created_at), también me tomé la libertad de añadir algunas adicionales (company, document, area).
 
 
 ### ⚙️ Crear un archivo config.php para la conexión a la base de datos
