@@ -1,16 +1,15 @@
-# En este README se definirán las tareas prácticas solicitadas por el equipo de Grupo Lucky para el Examen de PHP.  
-# ¡Gracias por la oportunidad!
+# En este README se definirán las tareas prácticas solicitadas por el equipo de Grupo Lucky para el Examen de PHP. ¡Gracias por la oportunidad!  
 
 
 ## 1. CRUD en PHP y MySQL
 
-### 🛢️ Crear una tabla en MySQL:
+## 🛢️ Crear una tabla en MySQL:
     **En el archivo 'table_create' definimos el código SQL que creará la tabla 'users' con las columnas requeridas** (id, name, email, created_at), también me tomé la libertad de añadir algunas adicionales (company, document, area). Aquí también ejecutamos una consulta a la DB para verificar si la tabla ha sido creada correctamente.
 
-### ⚙️ Crear un archivo config.php para la conexión a la base de datos:
+## ⚙️ Crear un archivo config.php para la conexión a la base de datos:
     **En el archivo 'config' definimos las variables de conexión a la DB MySQL.** Luego creamos un DSN y se configuran las opciones para realizar la conexión mediante PDO dentro de un try-catch para manejar los errores.
 
-### 👨‍💻 Crear un script PHP para realizar operaciones CRUD:
+## 👨‍💻 Crear un script PHP para realizar operaciones CRUD:
     **En el archivo 'crud' se define el script requerido en el documento word.** Este código define los métodos HTTP que se ejecutarán en la DB para crear, leer, actualizar y eliminar registros. Se modificó el código para incluir las columnas adicionales definidas en la DB.
 
     **¿Cómo usar el script para realizar operaciones CRUD?**
@@ -23,5 +22,5 @@
 
 # 2. Consulta a una API
 
-### 👨‍💻 Crear un script PHP que realice una solicitud GET a una API pública (por ejemplo, la API de GitHub) y muestre los datos de un usuario específico:
+## 👨‍💻 Crear un script PHP que realice una solicitud GET a una API pública (por ejemplo, la API de GitHub) y muestre los datos de un usuario específico:
     //TODO
